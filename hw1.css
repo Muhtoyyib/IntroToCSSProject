@@ -3,7 +3,7 @@ body{
     margin: auto;
 }
 header{
-    background: #808080 url('../images/flywheel.jpg') no-repeat;
+    background: #808080 url('flywheel.jpg') no-repeat;
     background-size: cover;
     padding: 50px;
 }
