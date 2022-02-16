@@ -1,0 +1,100 @@
+body{
+    padding: auto;
+    margin: auto;
+}
+header{
+    background: #808080 url('../images/flywheel.jpg') no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+header a{
+    background-color: azure;
+    color: #0000ff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 5px 20px 0 50px;
+    padding: 20px;
+    text-decoration: none;
+    width: 15%;
+    opacity: 0.5;
+    font-weight: 600;
+}
+
+.active{
+    background-color: white;
+    opacity: 1;
+}
+
+main{
+    display: inline-block;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+aside{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    background-color: #808080;
+    height: 100%;
+}
+
+section{
+    background-color: #fff;
+    display: inline-block;
+    float: right;
+    width: 74%;
+}
+
+img{
+    display: block;
+    width: 50%;
+    height: 20%;
+    border: 2px solid black;
+    margin: 50px auto 50px auto;
+}
+
+table{
+    width: 70%;
+    margin: auto;
+}
+
+table tr th{
+    border-bottom: 3px solid black;
+    background-color: #305248;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+table tr th:first-child{
+    border-top-left-radius: 10px;
+}
+
+table tr th:last-child{
+    border-top-right-radius: 10px;
+}
+
+table tr td{
+    text-align: center;
+    opacity: .6;
+    padding: 15px;
+    border: 2px solid #ffe;
+    background-color: #305243;
+    color: #fff;
+}
+
+table tr td:first-child{
+    text-align: left;
+}
+ table tr td:hover{
+     opacity: 1;
+ }
